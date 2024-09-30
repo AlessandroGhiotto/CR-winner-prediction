@@ -14,6 +14,8 @@ On the dataset I have already done a first rough preprocessing, because the data
 
 All the operations that I have done on the dataset can be seen in the notebook _"dataset_first_preprocessing.ipynb"_. The final result are the two csv files _"./data/ClashRoyaleDataset_corrupted.csv"_ and _"./data/ClashRoyaleDataset.csv"_ (for the version without NaN values). By maintaining only the main game mode we remain with $1\,815\,549$ matches. Each card is encoded with an id, the corresponding cards to this ids are written in the file _"CardMasterListSeason18_12082020.csv"_, which was given at the same link in kaggle.
 
+## notebook-project.ipynb
+
 ### Dataset analysis
 
 1. analize the missing values
