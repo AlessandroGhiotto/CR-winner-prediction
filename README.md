@@ -27,11 +27,11 @@ All the operations that I have done on the dataset can be seen in the notebook _
 
 Here we can see the correlation between trophies, elixir average and the sum of the level of the cards:
 
-![hexbinplot](https://github.com/AlessandroGhiotto/CNN-image-classification/blob/main/images/hebinplot.png)
+![hexbinplot](https://github.com/AlessandroGhiotto/CR-winner-prediction/blob/main/images/hexbinplot.png)
 
 Now for the true clash royale gamers we can look at correlation matrix given by the co-occurences of the cards in the **2.8 deck** ( _Hog_Rider, Musketeer, Ice_Golem, Cannon, Fireball, The_Log, Ice_Spirit, Skeletons_ ):
 
-![2dot8](https://github.com/AlessandroGhiotto/CNN-image-classification/blob/main/images/2dot8-correlation.png)
+![2dot8](https://github.com/AlessandroGhiotto/CR-winner-prediction/blob/main/images/2dot8-correlation.png)
 
 ### Model selection
 
@@ -88,7 +88,7 @@ classifier_configs = [
 
 Then I have done a more focused Randomized Search CV around the solution found in the previous nestes cross validation. I have obtained the following model:
 
-![model](https://github.com/AlessandroGhiotto/CNN-image-classification/blob/main/images/FinalModelPipeline.png)
+![model](https://github.com/AlessandroGhiotto/CR-winner-prediction/blob/main/images/FinalModelPipeline.png)
 
 ## Installing
 
